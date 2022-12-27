@@ -1,0 +1,101 @@
+body.font {
+  background-color: #0e0e0e;
+  font-family: "IBM Plex Mono", monospace;
+}
+body.font .wrapper {
+  margin: 1vw;
+  font-family: "IBM Plex Mono", monospace;
+}
+body.font .wrapper .main h1 {
+  font-size: 15vw;
+  line-height: 100%;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+}
+body.font .wrapper .main h1 span:first-child {
+  color: yellow;
+}
+body.font .wrapper .main h1 span:first-child:hover {
+  font-weight: 700;
+}
+body.font .wrapper .main h1 span:nth-of-type(2):hover {
+  font-weight: 500;
+  font-style: italic;
+}
+body.font .wrapper .main h1 span:nth-of-type(3):hover {
+  font-weight: 500;
+  font-style: italic;
+}
+body.font .wrapper .main h2 {
+  margin-top: 1vw;
+  font-size: 2vw;
+  line-height: 100%;
+  font-weight: 400;
+  color: yellow;
+  text-align: center;
+}
+body.font .wrapper .about {
+  margin: 5vw;
+  padding-top: 10vw;
+}
+body.font .wrapper .about h1 {
+  padding-top: 10vw;
+  margin-top: 1vw;
+  font-size: 4.5vw;
+  line-height: 120%;
+  font-weight: 400;
+  color: yellow;
+  text-align: left;
+}
+body.font .wrapper .about h2 {
+  padding-top: 2vw;
+  width: 60%;
+  margin-top: 1vw;
+  font-size: 2vw;
+  line-height: 120%;
+  font-weight: 400;
+  color: white;
+  text-align: left;
+}
+body.font .wrapper .about h2 span {
+  color: yellow;
+}
+body.font .wrapper .about h2 a {
+  color: yellow;
+  text-decoration: underline;
+}
+body.font .wrapper .about h2 a:hover {
+  color: white;
+}
+body.font .wrapper .about img {
+  padding-top: 5vw;
+  padding-bottom: 8vw;
+  margin: 0 auto;
+  width: 80%;
+}
+body.font .wrapper .about .glyphs {
+  padding-top: 5vw;
+  padding-bottom: 7vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+body.font .wrapper .about .glyphs h3 {
+  font-size: 5vw;
+  text-align: center;
+  line-height: 2;
+  color: black;
+  background-color: yellow;
+  width: 10vw;
+  height: 10vw;
+}
+body.font .wrapper .about a {
+  font-size: 2vw;
+  color: yellow;
+  text-decoration: underline;
+}
+body.font .wrapper .about a:hover {
+  color: white;
+}
